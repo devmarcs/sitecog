@@ -10813,7 +10813,7 @@ transform: rotate(-180deg);
   margin: 0;
   letter-spacing: 2px;
   color: #FFF;
-  text-shadow: 1px 1px 1px #000;
+  
 }
 .display-2--description {
   font-size: 1rem;
@@ -10916,7 +10916,7 @@ transform: rotate(-180deg);
   display: flex;
   flex-direction: column;
   justify-content: flex-end; /* Garante que o conteúdo dentro da seção fique na parte inferior */
-  
+  background-image: url(/images/cabecalho/gradiente-site.png);
 }
 
 .intro-section::before {
@@ -10928,7 +10928,7 @@ transform: rotate(-180deg);
   background-repeat: no-repeat;
   background-position: bottom;
   z-index: -1;
-  opacity: 0.8;
+  opacity: 0.6;
 }
 
 .intro-section::after {
@@ -10936,7 +10936,12 @@ transform: rotate(-180deg);
   position: absolute;
   inset: 0;
   background-color: rgba(17, 52, 213, 0.5); /* Cor azul com 50% de opacidade */
-  z-index: -1;
+  z-index: 0;
+}
+
+.content-wrapper {
+  position: relative;
+  z-index: 2; /* Garanta que o conteúdo (texto e vídeo) fique acima da opacidade azul */
 }
 
 
@@ -10947,6 +10952,7 @@ transform: rotate(-180deg);
   width: 100%;
   height: auto;
   margin-top: auto;
+  z-index: 1;
 }
 
 @media (max-width: 768px) {
