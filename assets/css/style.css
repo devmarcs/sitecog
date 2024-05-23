@@ -10810,7 +10810,7 @@ transform: rotate(-180deg);
   font-size: 0.6em;
   letter-spacing: 0.1px;
   color: #f1f1f1;
-  margin: 0 0 5rem 0;
+  margin: 0;
   letter-spacing: 2px;
   color: #FFF;
   text-shadow: 1px 1px 1px #000;
@@ -10909,7 +10909,7 @@ transform: rotate(-180deg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 30rem 0 0 0;
+  padding: 19rem 0 0 0;
   position: relative; /* Para que o SVG possa ser posicionado relativamente à seção */
   width: 100%;
   min-height: 100vh; /* Garante que a seção tenha pelo menos a altura da viewport */
@@ -10923,7 +10923,7 @@ transform: rotate(-180deg);
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url(/images/cabecalho/Brasil.png);
+  background-image: url(/images/cabecalho/imagemteste.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
