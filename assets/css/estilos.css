@@ -1,0 +1,109 @@
+.logo-image {
+    width: 5rem;
+}
+
+.link-fone {
+    text-decoration: none;
+    color: #003838;
+}
+
+.intro-section {
+    border: 0.1px solid #fff !important;
+}
+
+.testimonials {
+    border: 0.1px solid #fff !important;
+}
+
+.bloco-dois {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/* Css da parte dos clientes*/
+
+.container__logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.logos {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    overflow-x: hidden;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logo {
+    margin: 0 10px;
+    padding: 8px 0;
+}
+
+.imagem {
+    width: 100px;
+    margin: 8px 0;
+}
+
+.bloco-dois {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.img__blocodois {
+    border-radius: 50%;
+}
+
+.fototia {
+    width: 100%;
+    padding-top: 5em;
+}
+
+.bloco-um,
+.bloco-tres {
+    display: flex;
+    align-items: center;
+}
+
+.container__maps {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0 1rem 2rem 0;
+    max-width: 100%;
+}
+
+
+.container__texto {
+    max-width: 100%;
+    text-align: center;
+    text-align: justify;
+}
+
+
+.container__maps {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0 1rem 2rem 0;
+    max-width: 100%;
+}
+
+/*CSS do título do formulário*/
+
+.title-form {
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    text-align: justify;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    display: inline-block;
+    background-image: linear-gradient(to right, rgba(17, 52, 213, 0.56), rgba(17, 52, 213, 1));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
