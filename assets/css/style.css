@@ -3819,7 +3819,7 @@ textarea.form-control-lg {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  color: #9926f0;
+  color: var(--verde-cog);
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -3858,7 +3858,7 @@ textarea.form-control-lg {
 }
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
-  color: #495057;
+  color: var(--verde-cog);
   background-color: #fff;
   border-color: #dee2e6 #dee2e6 #fff;
 }
@@ -4188,23 +4188,24 @@ textarea.form-control-lg {
 }
 
 .navbar-dark .navbar-brand {
-  color: #fff;
+  color: var(--verde-cog);
 }
 .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
-  color: #fff;
+  color: var(--verde-cog);
 }
 .navbar-dark .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.55);
+  color: rgba(0, 56, 56, 0.9);
 }
 .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(252, 110, 77);
 }
 .navbar-dark .navbar-nav .nav-link.disabled {
-  color: rgba(255, 255, 255, 0.25);
+  color: rgba(252, 110, 77, 0.78);
+
 }
 .navbar-dark .navbar-nav .show > .nav-link,
 .navbar-dark .navbar-nav .nav-link.active {
-  color: #fff;
+  color: var(--verde-cog);
 }
 .navbar-dark .navbar-toggler {
   color: rgba(255, 255, 255, 0.55);
@@ -10906,16 +10907,16 @@ transform: rotate(-180deg);
 
 .intro-section {
   
-  background-repeat: no-repeat;
+  background-repeat: no-repeat;  
   background-size: cover;
   background-position: center;
-  padding: 19rem 0 0 0;
-  position: relative; /* Para que o SVG possa ser posicionado relativamente à seção */
+  padding: 25.4rem 0 0 0;
+  position: relative; 
   width: 100%;
-  min-height: 100vh; /* Garante que a seção tenha pelo menos a altura da viewport */
+  min-height: 100vh; 
   display: flex;
   flex-direction: column;
-  justify-content: flex-end; /* Garante que o conteúdo dentro da seção fique na parte inferior */
+  justify-content: flex-end; 
   background-image: url(/images/cabecalho/gradiente-site.png);
 }
 
@@ -10941,7 +10942,7 @@ transform: rotate(-180deg);
 
 .content-wrapper {
   position: relative;
-  z-index: 2; /* Garanta que o conteúdo (texto e vídeo) fique acima da opacidade azul */
+  z-index: 2; 
 }
 
 
@@ -11259,7 +11260,7 @@ transform: rotate(-180deg);
 }
 
 .footer-bottom {
-  background-color: #000;
+  background-color: #151414;
 }
 .footer-bottom__copyright {
   color: #6c757d;

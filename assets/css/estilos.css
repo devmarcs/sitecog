@@ -2,10 +2,6 @@
     width: 5rem;
 }
 
-.link-fone {
-    text-decoration: none;
-    color: #003838;
-}
 
 .intro-section {
     border: 0.1px solid #fff !important;
@@ -18,6 +14,11 @@
 .bloco-dois {
     display: flex;
     flex-direction: row-reverse;
+    
+}
+
+.container-completo {
+    align-items: center;
 }
 
 /* Css da parte dos clientes*/
@@ -60,10 +61,6 @@
     border-radius: 50%;
 }
 
-.fototia {
-    width: 100%;
-    padding-top: 5em;
-}
 
 .bloco-um,
 .bloco-tres {
@@ -106,4 +103,12 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+
+/*Estilos do footer*/
+
+.img-footer {
+    width: 150px;
+    margin: 0 0 0 5rem;
 }
