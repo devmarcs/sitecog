@@ -4197,18 +4197,18 @@ textarea.form-control-lg {
   color: var(--verde-cog);
 }
 .navbar-dark .navbar-nav .nav-link {
-  color: rgba(0, 56, 56, 0.9);
+  color:rgba(255, 255, 255, 0.55);
 }
 .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
-  color: rgba(252, 110, 77);
+  color: rgba(255, 255, 255, 1);
 }
 .navbar-dark .navbar-nav .nav-link.disabled {
-  color: rgba(252, 110, 77, 0.78);
+  color: #ffffff8c;
 
 }
 .navbar-dark .navbar-nav .show > .nav-link,
 .navbar-dark .navbar-nav .nav-link.active {
-  color: var(--verde-cog);
+  color: #f1f1f1f1;
 }
 .navbar-dark .navbar-toggler {
   color: rgba(255, 255, 255, 0.55);
@@ -10914,7 +10914,7 @@ transform: rotate(-180deg);
   background-size: cover;
   background-position: center;
   position: relative; 
-  padding: 25rem 0 0 0;
+  padding: 18rem 0 0 0;
   width: 100%;
   min-height: 100vh; 
   display: flex;
