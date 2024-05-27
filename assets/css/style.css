@@ -65,7 +65,7 @@
 
 body {
   margin: 0;
-  font-family: var(--bs-font-sans-serif);
+  font-family: "Red Hat Display", sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -10913,8 +10913,8 @@ transform: rotate(-180deg);
   background-repeat: no-repeat;  
   background-size: cover;
   background-position: center;
-  padding: 25.4rem 0 0 0;
   position: relative; 
+  padding: 25rem 0 0 0;
   width: 100%;
   min-height: 100vh; 
   display: flex;
@@ -10927,7 +10927,7 @@ transform: rotate(-180deg);
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url(/images/cabecalho/imagemteste.jpg);
+  background-image: url(/images/cabecalho/Brasil.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;

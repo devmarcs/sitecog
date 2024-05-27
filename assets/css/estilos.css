@@ -109,6 +109,20 @@
 /*Estilos do footer*/
 
 .img-footer {
-    width: 150px;
-    margin: 0 0 0 5rem;
+    width: 200px;
+    margin: 0 0 0 3rem;
 }
+
+@media (max-width: 576px) {
+    .img-footer {
+      padding-bottom: 40px; /* ajuste o valor conforme necessário */
+    }
+  }
+
+
+
+  .container-footer {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 3rem;
+  }
