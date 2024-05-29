@@ -131,13 +131,15 @@
 
   /*Estilo da mensagem do formulário*/
 
-  .succes,
+  .success,
   .error {
     text-align: center;
   }
 
-  .succes {
-    color: greenyellow;
+  .success {
+    color: #1437D5;
+    font-size: 3rem;
+    font-weight: bold;
   }
 
   .error {
