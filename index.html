@@ -22,7 +22,7 @@
   <link rel="stylesheet" href="assets/css/estilos.css">
   <link rel="stylesheet" href="teste.css">
 
-
+  <script src="fomulario.js" defer></script>
 </head>
 
 <body>
@@ -483,25 +483,33 @@
         </div>
         <div class="col-12 col-lg-6 bg-white shadow p-3">
           <div class="form w-100 pb-2">
+
+
+
             <h4 class=" title-form mb-5">Entre em contato</h4>
-            <form action="#" class="row">
+            <form action="https://formsubmit.co/ajax/devmarcelo.gus@gmail.com" method="POST" class="row" data-form>
+
               <div class="col-lg-6 col-md mb-3">
-                <input type="text" placeholder="Nome" id="inputFirstName" class="shadow form-control form-control-lg">
+                <input type="text" name="nome" placeholder="Nome"  id="inputFirstName" class="shadow form-control form-control-lg" required>
               </div>
               <div class="col-lg-6 col-md mb-3">
-                <input type="text" placeholder="Sobrenome" id="inputLastName"
-                  class="shadow form-control form-control-lg">
+                <input type="text" name="sobrenome" placeholder="Sobrenome" id="inputLastName"
+                  class="shadow form-control form-control-lg" required>
+              </div>
+              <div class="col-lg-6 col-md mb-3">
+                <input type="text" name="telefone" placeholder="Telefone" id="inputLastName"
+                  class="shadow form-control form-control-lg" required>
               </div>
               <div class="col-lg-12 mb-3">
-                <input type="email" placeholder="Endereço e email" id="inputEmail"
-                  class="shadow form-control form-control-lg">
+                <input name="email"  type="email" placeholder="Endereço e email" id="inputEmail"
+                  class="shadow form-control form-control-lg" required>
               </div>
               <div class="col-lg-12 mb-3">
                 <textarea name="message" placeholder="Mensagem" id="message" rows="8"
-                  class="shadow form-control form-control-lg"></textarea>
+                  class="shadow form-control form-control-lg" required></textarea>
               </div>
               <div class="text-center d-grid mt-1">
-                <button type="button" class="btn btn-primary rounded-pill pt-3 pb-3">
+                <button type="submit" class="btn btn-primary rounded-pill pt-3 pb-3" data-button>
                   Enviar
                   <i class="fas fa-paper-plane"></i>
                 </button>
@@ -602,6 +610,7 @@
   <script src="assets/vendors/js/glightbox.min.js"></script>
 
   <script src="assets/js/bootstrap.bundle.min.js"></script>
+  
 </body>
 
 </html>

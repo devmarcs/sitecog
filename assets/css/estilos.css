@@ -126,3 +126,25 @@
     flex-direction: row;
     margin: 0px 3rem;
   }
+
+
+
+  /*Estilo da mensagem do formulário*/
+
+  .succes,
+  .error {
+    text-align: center;
+  }
+
+  .succes {
+    color: greenyellow;
+  }
+
+  .error {
+    color: tomato;
+  }
+
+.rounded-pill:disabled{
+    cursor: not-allowed;
+    background-color: grey;
+}
