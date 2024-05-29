@@ -113,6 +113,7 @@
     margin: 0 0 0 3rem;
 }
 
+
 @media (max-width: 576px) {
     .img-footer {
       padding-bottom: 40px; /* ajuste o valor conforme necessário */
@@ -123,8 +124,13 @@
 
   .container-footer {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     margin: 0px 3rem;
+  }
+
+  .container__geral {
+    display: flex;
+    justify-content: space-around;
   }
 
 
