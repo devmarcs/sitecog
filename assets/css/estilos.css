@@ -108,49 +108,65 @@
 
 /*Estilos do footer*/
 
-.img-footer {
-    width: 200px;
-    margin: 0 0 0 3rem;
+
+
+
+.container__geral {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1.8rem 0;
+  
 }
 
 
+.img-footer {
+    width: 200px;
+}
+
+
+.container-footer {
+display: flex;  
+margin: 0px 3rem;
+}
+
+ 
+
 @media (max-width: 576px) {
     .img-footer {
-      padding-bottom: 40px; /* ajuste o valor conforme necessário */
+    width: 100px;
+    padding: 20px 0; /* ajuste o valor conforme necessário */
     }
-  }
 
+    .container__geral {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
+    .container-footer {
+        padding: 1.5rem 0;
+    }
+}
 
-  .container-footer {
-    display: flex;
-    flex-direction: row-reverse;
-    margin: 0px 3rem;
-  }
+/*Estilo da mensagem do formulário*/
 
-  .container__geral {
-    display: flex;
-    justify-content: space-around;
-  }
+.success,
+.error {
+text-align: center;
+}
 
+.success {
+color: #1437D5;
+font-size: 3rem;
+font-weight: bold;
+}
 
-
-  /*Estilo da mensagem do formulário*/
-
-  .success,
-  .error {
-    text-align: center;
-  }
-
-  .success {
-    color: #1437D5;
-    font-size: 3rem;
-    font-weight: bold;
-  }
-
-  .error {
-    color: tomato;
-  }
+.error {
+color: tomato;
+font-size: 3rem;
+font-weight: bold;
+}
 
 .rounded-pill:disabled{
     cursor: not-allowed;
